@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className="navbar-container">
       {/* Logo */}
       <div className="logo">
-        SQUARE <span>ONE</span>
+        <img src="/SQUARE_ONE-removebg-preview.png" alt="Logo" className="logo-img" />
       </div>
 
       {/* Navigation */}
