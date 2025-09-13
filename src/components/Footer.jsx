@@ -43,6 +43,12 @@ const Footer = () => {
       <p className="footer-bottom">
         © {new Date().getFullYear()} Square One. All rights reserved.
       </p>
+
+ <div className="footer-bottom1">
+        <p>Website created by RJ ATLAS DIGITAL AI</p>
+        <p>Contact : 9995528426</p>
+      </div>
+
     </footer>
   );
 };
