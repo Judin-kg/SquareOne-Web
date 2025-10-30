@@ -64,7 +64,7 @@ const Product = () => {
           </p>
 
           <button className="add-to-cart" onClick={goToPage}>
-            SEE MORE
+            SEE MORE 
           </button>
         </div>
       </div>
