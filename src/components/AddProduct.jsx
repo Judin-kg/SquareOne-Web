@@ -246,7 +246,7 @@
 // export default AddProduct;
 
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+
 import "./AddProduct.css";
 
 const AddProduct = () => {
@@ -257,7 +257,7 @@ const AddProduct = () => {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
   const [products, setProducts] = useState([]);
-  const navigate = useNavigate();
+ 
 
   // ✅ Cloudinary configuration (replace with your credentials)
    const cloudName = "djuihd2af"; 
