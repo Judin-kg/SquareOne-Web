@@ -9,7 +9,7 @@ const MoreDetails = () => {
 
   // Fetch all products from backend
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://squareone-server.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error fetching products:", err));
